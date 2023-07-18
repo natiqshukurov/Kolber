@@ -1,0 +1,121 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  border: 0;
+  box-sizing: inherit;
+}
+html {
+  box-sizing: border-box;
+  /* (10px / 16px )*100 = 62.5 */
+  font-size: 62.5%;
+  font-family: "Raleway";
+}
+
+.nav_bar {
+  background-color: #181818;
+  color: white;
+  font-family: "Raleway";
+}
+.nav_bar ul {
+  list-style: none;
+  display: flex;
+  gap: 70px;
+  font-family: "Raleway";
+  margin-right: 50px;
+}
+
+.nav_bar ul a {
+  text-decoration: none;
+  color: #ffff;
+}
+.nav_bar nav {
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+  align-items: center;
+  padding: 35px;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19px;
+}
+
+.menu {
+  cursor: pointer;
+}
+
+.menu_lang {
+  border: 1px solid white;
+  padding: 7px;
+  border-radius: 5px;
+  transform: translate(50%);
+  cursor: pointer;
+  margin-left: 100px;
+}
+
+.logo {
+  transform: translateX(-30px);
+}
+
+.end_page {
+  display: flex;
+  justify-content: space-between;
+  background-color: #181818;
+  max-width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  border-top: 1px solid #ffec00;
+  padding-left: 30px;
+  padding-right: 55px;
+}
+
+.end_page .paragraf p {
+  color: white;
+  font-size: 16px;
+  text-align: center;
+  background-color: #181818;
+  line-height: 1.5;
+}
+
+.social {
+  display: flex;
+  font-size: 24px;
+  color: white;
+  text-align: center;
+  gap: 8px;
+  margin-left: 30px;
+}
+
+.facebook,
+.instagram,
+.linkedin,
+.tiktok {
+  border: 1px solid #ffec00;
+  width: 30px;
+  height: 30px;
+  border-radius: 50px;
+}
+
+.phone {
+  display: flex;
+  color: white;
+  border: 1px solid #ffec00;
+  border-radius: 20px;
+  align-items: center;
+  text-align: center;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.phone p {
+  margin-left: 10px;
+}
+
+.end_page .network {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 18px;
+}

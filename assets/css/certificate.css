@@ -1,0 +1,50 @@
+.sertifikat {
+  display: flex;
+  position: relative;
+  background-color: #181818;
+  gap: 40px;
+  align-items: center;
+  max-width: 100%;
+  height: 800px;
+  padding: 0 auto;
+  padding-left: 50px;
+}
+.sertifikat h2 a {
+  color: white;
+  font-family: "Raleway";
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.sertifikat h2 {
+  margin-top: 35px;
+  transform: translate(575px, -350px);
+  position: absolute;
+  text-align: center;
+  align-items: center;
+}
+
+.sertifikat h2 a:hover {
+  text-decoration: underline;
+}
+
+.crtf {
+  background: #ffffff;
+  mix-blend-mode: normal;
+  box-shadow: 0px 9px 10px rgba(187, 187, 187, 0.28);
+  border-radius: 15px;
+  top: 85px;
+}
+
+.crtf img {
+  width: 350px;
+  margin: 20px;
+}
+
+.sertifikat p {
+  color: white;
+  font-family: "Raleway";
+  font-size: 16px;
+  text-align: center;
+  transform: translateY(50px);
+}

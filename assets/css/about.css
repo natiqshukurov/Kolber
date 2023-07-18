@@ -1,0 +1,40 @@
+.main {
+  background-color: #181818;
+  position: relative;
+  /* width: 1366px; */
+  height: 800px;
+}
+
+.main img {
+  width: 100%;
+  height: 100%;
+  /* width: 1366px; */
+  mix-blend-mode: normal;
+  object-fit: cover;
+}
+.kolge {
+  top: 0;
+  left: 0;
+  position: absolute;
+}
+.info {
+  background-color: #181818;
+  /* width: 1366px; */
+  height: 600px;
+}
+
+.info h1 {
+  color: white;
+  font-size: 22px;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.info p {
+  color: white;
+  font-size: 20px;
+  text-align: justify;
+  padding-left: 150px;
+  padding-right: 150px;
+  padding-top: 50px;
+}

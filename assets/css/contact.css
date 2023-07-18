@@ -1,0 +1,35 @@
+.main {
+  background-color: #181818;
+  display: flex;
+  position: relative;
+  padding-bottom: 100px;
+}
+
+.elaqe {
+  background-color: #181818;
+  color: white;
+  font-size: 16px;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 80px;
+}
+
+.main .map {
+  display: flex;
+  margin-left: 55px;
+}
+
+.cont_info h3 {
+  color: white;
+  font-size: 32px;
+  margin-bottom: 70px;
+}
+
+.cont_info p {
+  color: white;
+  font-size: 24px;
+}
+
+.cont_info {
+  margin-left: 80px;
+}

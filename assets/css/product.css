@@ -1,0 +1,132 @@
+* {
+  font-family: "Raleway";
+}
+.item {
+  width: 305px;
+  height: 305px;
+  background-color: white;
+  box-sizing: border-box;
+  box-shadow: 0px 9px 10px rgba(187, 187, 187, 0.28);
+  border-radius: 15px;
+  position: relative;
+  margin: 15px;
+  margin-top: 100px;
+}
+
+.item img {
+  position: absolute;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  margin-top: 45px;
+  margin-left: 48px;
+}
+
+.kateqoriya {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 5px 0px 10px;
+  color: white;
+  position: absolute;
+  width: 305px;
+  height: 38px;
+  left: 65px;
+  background-color: #181818;
+  border: 1.5px solid #ffffff;
+  border-radius: 5px;
+  margin-top: 50px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.main h1 {
+  text-align: center;
+  color: white;
+  transform: translateY(57px);
+}
+
+.main {
+  background-color: #181818;
+  position: relative;
+  /* width: 1366px; */
+  height: 1000px;
+}
+
+.main .mehsullar {
+  padding-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.main .mehsullar .item p {
+  transform: translateY(330px);
+  color: white;
+  font-size: 18px;
+  text-align: center;
+}
+
+.main .mehsullar .item h3 {
+  color: #ffec00;
+  font-size: 16px;
+  text-align: center;
+  transform: translateY(340px);
+}
+
+.main .mehsullar .item:nth-child(1) {
+  margin-bottom: 50px;
+}
+
+.next {
+  /* width: 1366px; */
+  height: 250px;
+  background-color: #181818;
+  position: relative;
+}
+.next button {
+  background-color: #ffec00;
+  border-radius: 30px;
+  box-sizing: border-box;
+  cursor: pointer;
+  position: absolute;
+  width: 198px;
+  height: 50px;
+  left: 70px;
+  top: 569px;
+  font-size: 22px;
+  word-spacing: 20px;
+  transform: translateY(-450px);
+  margin-left: 500px;
+}
+
+.next .page {
+  box-sizing: border-box;
+  position: absolute;
+  width: 350px;
+  height: 50px;
+  left: 975px;
+  top: 119px;
+  border: 1.5px solid #ffffff;
+  border-radius: 30px;
+  color: white;
+  font-size: 14px;
+  letter-spacing: 5px;
+  text-align: center;
+  padding: 15px;
+}
+
+.next .page p span {
+  color: #ffec00;
+  font-weight: bold;
+  cursor: pointer;
+}
+.page {
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.page p {
+  cursor: pointer;
+}

@@ -1,0 +1,236 @@
+* {
+  font-family: "Raleway";
+}
+.more {
+  background-color: #ffec00;
+  border-radius: 30px;
+  box-sizing: border-box;
+  cursor: pointer;
+  position: absolute;
+  width: 198px;
+  height: 50px;
+  left: 70px;
+  top: 569px;
+  font-size: 22px;
+  word-spacing: 20px;
+}
+
+.metn {
+  position: absolute;
+  width: 431px;
+  height: 121px;
+  left: 70px;
+  top: 417px;
+
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  color: #ffffff;
+  margin-left: 70x;
+}
+
+.metn p {
+  font-weight: 200;
+  font-size: 50px;
+}
+
+.logo .cub1 {
+  margin-bottom: 5px;
+}
+
+.main {
+  position: relative;
+  width: 100%;
+  height: 800px;
+  object-fit: cover;
+}
+
+.main img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.mehsul {
+  display: flex;
+  max-width: 100%;
+  height: 670px;
+  background-color: #181818;
+  position: relative;
+  justify-content: center;
+}
+
+.item {
+  width: 305px;
+  height: 305px;
+  background-color: white;
+  box-sizing: border-box;
+  box-shadow: 0px 9px 10px rgba(187, 187, 187, 0.28);
+  border-radius: 15px;
+  position: relative;
+  margin: 15px;
+  margin-top: 100px;
+}
+
+.item img {
+  position: absolute;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  margin-top: 45px;
+  margin-left: 48px;
+}
+
+.mehsul h2 {
+  position: absolute;
+  color: white;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.item p {
+  position: absolute;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150.69%;
+
+  display: flex;
+  align-items: flex-end;
+  text-align: center;
+  letter-spacing: 0.02em;
+  margin-top: 330px;
+  color: white;
+}
+
+.mehsul button {
+  position: absolute;
+  margin-left: 510px;
+}
+
+.main_2 img {
+  position: absolute;
+  /* width: 1366px; */
+  max-width: 100%;
+  height: 800px;
+}
+
+.main_2 .shadow {
+  right: 0;
+}
+
+.main_2 {
+  background-color: #181818;
+  position: relative;
+  display: flex;
+  width: 100%;
+  /* width: 1366px; */
+  height: 800px;
+}
+
+.main_2 button {
+  position: absolute;
+  margin-left: 50%;
+  transform: translateY(-350%);
+}
+
+.main_2 .metn {
+  margin-left: 50%;
+  transform: translateY(-150%);
+}
+
+.main_2 .direction {
+  display: flex;
+  scale: 1;
+  align-items: center;
+  color: white;
+  font-size: 60px;
+  position: static;
+}
+.main_2 .direction:hover {
+  cursor: pointer;
+}
+
+.main_2 .direction .arrow1 {
+  transform: translate(1300px);
+}
+.button {
+  display: flex;
+  position: relative;
+}
+
+.button .dot {
+  cursor: pointer;
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  border: 1px solid #ffec00;
+  margin: 5px;
+  transform: translate(500px, 700px);
+}
+
+.button .dot:nth-child(1) {
+  background-color: #ffec00;
+}
+
+.button .dot:hover {
+  background-color: #ffec00;
+  transition: ease-in 0.5s;
+}
+
+.sertifikat {
+  display: flex;
+  position: relative;
+  float: left;
+  background-color: #181818;
+  gap: 40px;
+  align-items: center;
+  /* width: 1366px; */
+  width: 100%;
+  height: 800px;
+  padding: 0 auto;
+  padding-left: 50px;
+}
+.sertifikat h2 a {
+  color: white;
+  font-family: "Raleway";
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.sertifikat h2 {
+  margin-top: 35px;
+  transform: translate(575px, -350px);
+  position: absolute;
+  text-align: center;
+  align-items: center;
+}
+
+.sertifikat h2 a:hover {
+  text-decoration: underline;
+}
+
+.crtf {
+  background: #ffffff;
+  mix-blend-mode: normal;
+  box-shadow: 0px 9px 10px rgba(187, 187, 187, 0.28);
+  border-radius: 15px;
+  top: 85px;
+}
+
+.crtf img {
+  width: 350px;
+  margin: 20px;
+}
+
+.sertifikat p {
+  color: white;
+  font-family: "Raleway";
+  font-size: 16px;
+  text-align: center;
+  transform: translateY(50px);
+}

@@ -1,0 +1,74 @@
+.basliq {
+  background-color: #181818;
+  color: white;
+  text-align: center;
+  padding-top: 50px;
+  font-size: 22px;
+}
+.branch {
+  display: flex;
+  position: relative;
+  background-color: #181818;
+  /* width: 1366px; */
+  height: 600px;
+  align-items: center;
+  text-align: justify;
+}
+
+.branch .item {
+  position: relative;
+  align-items: center;
+  margin-top: 30px;
+  border: 1px solid #ffec00;
+  border-radius: 13px;
+  margin: 20px;
+  padding-top: 70px;
+  margin-bottom: 100px;
+}
+
+.branch .item:nth-child(1) {
+  margin-left: 40px;
+}
+
+.item img {
+  width: 337px;
+  height: 242px;
+  border-radius: 13px;
+  margin: 30px;
+  margin-top: 50px;
+  display: block;
+}
+
+.item h2 {
+  font-weight: 700;
+  font-size: 22px;
+  color: #ffec00;
+  transform: translate(30px, -50px);
+  display: block;
+}
+
+.item p {
+  position: absolute;
+  width: 256px;
+  height: 60px;
+  color: white;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150.69%;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.02em;
+  transform: translate(30px, -40px);
+  display: block;
+}
+
+.item i {
+  color: #ffec00;
+  border: 1.5px solid #ffec00;
+  border-radius: 50%;
+  font-size: 16px;
+  padding: 10px;
+  transform: translate(330px, -34px);
+}
